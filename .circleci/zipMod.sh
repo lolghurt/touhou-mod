@@ -1,7 +1,7 @@
 #!/bin/sh
-https://github.com/lolghurt/ill-advised-1-bigger-mags/blob/master/.circleci/zipMod.sh
+https://https://github.com/lolghurt/touhou-mod/blob/master/.circleci/zipMod.sh
 # CHANGE ME
-modFolderName="Ill-Advised-Modifications-4-A-Terrible-Idea"
+modFolderName="Touhou-Mod"
 
 version=$(git describe --tags)
 zipName=$modFolderName-$version.zip

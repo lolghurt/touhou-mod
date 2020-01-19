@@ -1,0 +1,86 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+    
+    "rebelFleetSuffix":"Dissidents",
+    
+    "directoryUseShortName":true,
+
+    "startRelationships":{ "hegemony":-0.3, "sindrian_diktat":0.3,  },
+	
+    "morality":"amoral",
+    
+    "alignments":{
+        "corporate":0.5,
+        "technocratic":0.5,
+        "militarist":0.5,
+        "diplomatic":-1,
+    },
+	
+    "diplomacyTraits":["paranoid", "monopolist", "temperamental"],
+    
+    "startShipsSolo":[
+        ["aBadIdea2_elttuhs_standard"],
+        ["aBadIdea2_dnund_Standard"],
+        ["aBadIdea2_houoh_Standard"],
+        ["aBadIdea3_mudskipper_Standard"],
+        ["aBadIdea3_Tempest_Attack"],
+    ],
+    "startShipsCombatSmall":[
+        ["aBadIdea2_daehremmah_Elite", "aBadIdea2_dnund_Standard", "aBadIdea2_houoh_Standard"],
+        ["aBadIdea2_hammerhead_curved_Elite", "aBadIdea2_hammerhead_curved_Support"],
+        ["aBadIdea3_hammerhead_Elite", "aBadIdea3_Tempest_Attack", "aBadIdea3_Tempest_Attack"],
+    ],
+    "startShipsCarrierSmall":[
+        ["aBadIdea2_long_drover_Strike", "aBadIdea2_long_drover_Strike"],
+    ],
+    "startShipsTradeSmall":[
+        ["aBadIdea2_buffalo_EVIL_variant", "aBadIdea2_houoh_Standard", "aBadIdea2_dnund_Standard", "aBadIdea2_tpchound_Standard"],
+    ],
+    "startShipsCombatLarge":[
+        ["aBadIdea2_pilum_cruiser_Artillery", "aBadIdea2_pilum_destroyer_Artillery", "aBadIdea2_pilum_destroyer_Artillery"],
+        ["aBadIdea3_brickcruiser_Standard", "aBadIdea3_hammerhead_Support", "aBadIdea3_hammerhead_Balanced"],
+    ],
+    "startShipsCarrierLarge":[
+        ["ii_ardea_sta", "ii_princeps_ass", "ii_invictus_sta"],
+    ],
+    "startShipsTradeLarge":[
+        ["aBadIdea2_aluben_the_destroyer_godlike", "aBadIdea2_atlas_tanker_Standard", "aBadIdea2_atlas_as_fuck_Standard"],
+    ],
+    "startShipsSuper":[
+		["aBadIdea2_pilum_capital_Artillery"],
+		["aBadIdea2_midline_odyssey_Balanced"],
+		["aBadIdea2_onslaught_lgbt_Elite"],
+		["aBadIdea2_paragon_lowtech_phase_Blaster"],
+		["aBadIdea2_paragon_pather_Raider"],
+		["aBadIdea2_long_atlas_Standard"],
+		["aBadIdea2_hivecon_Standard"],
+		["aBadIdea3_BREADNOUGHT_Standard"],
+		["aBadIdea3_conquest_Elite"],
+		["aBadIdea3_lobstership_Standard"],
+		["aBadIdea3_meowquest_Standard"],
+		["aBadIdea3_onslaught_Elite"],
+		["aBadIdea3_paragon_Elite"],
+		["aBadIdea3_threadnought_Standard"],
+    ],
+	
+    "startSpecialItems":[
+        [["midline_package", ""]],
+    ],
+    
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"], "weight":0.5},
+        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"]},
+        {"ids":["orbitalstation_high", "battlestation_high", "starfortress_high"], "weight":2},
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.2},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"nanoforge_corrupted", "count":1},
+        {"id":"aiCore_station", "count":1},
+    ],
+}

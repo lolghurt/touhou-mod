@@ -1,0 +1,78 @@
+{
+
+#collapseopen MUSIC
+	
+"music":{
+		####################################
+		# "source" can also be a directory #
+		####################################
+		
+		"music_tritach_market_neutral":[
+			{
+				"source":"sounds/music/music.bin",
+				"volume":0.2,
+				"files":[
+					"faction_tritach_market_01_neutral.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		"music_tritach_market_hostile":[
+			{
+				"source":"sounds/music/music.bin",
+				"volume":0.2,
+				"files":[
+					"faction_tritach_market_02_hostile.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		"music_tritach_market_friendly":[
+			{
+				"source":"sounds/music/music.bin",
+				"volume":0.2,
+				"files":[
+					"faction_tritach_market_03_friendly.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		
+		"music_tritach_encounter_neutral":[
+			{
+				"source":"sounds/music/music.bin",
+				"volume":0.2,
+				"files":[
+					"faction_tritach_encounter_01_neutral.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		"music_tritach_encounter_hostile":[
+			{
+				"source":"sounds/music/music.bin",
+				"volume":0.2,
+				"files":[
+					"faction_tritach_encounter_02_hostile.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		"music_tritach_encounter_friendly":[
+			{
+				"source":"sounds/music/music.bin",
+				"volume":0.2,
+				"files":[
+					"faction_tritach_encounter_03_friendly.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		
+	},
+	
+}
+
+
+
+

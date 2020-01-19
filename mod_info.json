@@ -6,4 +6,6 @@
     "version": "v0.1",
     "description": "Weebs Gonna WEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEB",
     "gameVersion": "0.9.1a",
+	"jars":["jars/touhou_core.jar"],
+	"modPlugin":"data.scripts.touhou_ModPlugin"
 }

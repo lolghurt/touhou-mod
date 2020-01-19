@@ -1,0 +1,208 @@
+{
+	"id":"touhou_gensokyo",
+	"color":[120, 81, 185, 255],
+	#"baseUIColor":[75, 200, 0, 255],
+	#"darkUIColor":[32, 85, 0, 175],
+	#"gridUIColor":[95, 255, 0, 75],
+	"displayName":"Gensokyo",
+	"displayNameWithArticle":"Gensokyo",
+	"displayNameLong":"Gensokyo",
+	"displayNameLongWithArticle":"Gensokyo",
+	"logo":"graphics/factions/aBadIdea4_philpocalypse_flag.png",
+	"crest":"graphics/factions/aBadIdea4_philpocalypse_crest.png",
+	"shipNamePrefix":"PHIL",
+	"shipNameSources":{
+		"ALL":1,
+	},
+	"names":{
+		"touhou":1,
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		"touhou":10
+		},
+		"hulls":{
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["base_bp", "lowtech_bp", "touhou"],
+	
+	},
+	"knownShips":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "touhou"],
+	
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":["touhou"],
+	
+	},
+	"knownFighters":{
+		"tags":["base_bp", "touhou"],
+		"fighters":[
+		"broadsword_wing",
+		"warthog_wing",
+		"perdition_wing",
+		"talon_wing",
+		"aBadIdea2_pilum_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":["touhou"],
+	
+	},
+	"knownWeapons":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "missile_bp", "hightech_bp", "touhou"],
+		"weapons":[
+			"lightneedler",
+			"hveldriver",
+			"heavyneedler",
+			"mjolnir",
+			"multineedler",
+			"sabotpod",
+			"phasecl",
+			"cyclone",
+			"hurricane",
+			"squall",
+			"locust",
+			"pdburst",
+			"amblaster",
+			"phasebeam",
+			"heavyblaster",
+			"heavyburst",
+			"ionpulser",
+			"ionbeam",
+			"plasma",
+			"guardian",
+			"tachyonlance",
+		],
+	},
+	"priorityWeapons":{
+	
+	
+	},
+	"knownHullMods":{
+		"tags":["base_bp"],
+		"hullMods":[
+			"adaptiveshields", # omni
+			"advancedoptics",
+			"advancedshieldemitter", # accelerated
+			"armoredweapons",
+			"augmentedengines",
+			"converted_hangar",
+			"eccm",
+			"ecm",
+			"efficiency_overhaul",
+			"expanded_deck_crew",
+			"extendedshieldemitter",
+			"fluxbreakers",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"heavyarmor",
+			"hiressensors",
+			"insulatedengine",
+			"magazines",
+			"missleracks",
+			"nav_relay",
+			"operations_center",
+			"pointdefenseai",
+			"recovery_shuttles",
+			"stabilizedshieldemitter",
+			"surveying_equipment",
+			"targetingunit",
+			"turretgyros",
+			"aBadIdea2_danmaku",
+		],
+	},
+	"factionDoctrine":{
+		"warships":2,
+		"carriers":2,
+		"phaseShips":1,
+		"officerQuality":5,
+		"shipQuality":5,
+		"numShips":5,
+		"shipSize":4,
+		"aggression":5,
+		"combatFreighterProbability":0, # instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0, # as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.25, # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.25,
+		"commanderSkillsShuffleProbability":0,
+		"commanderSkills":[
+			"fighter_doctrine",
+			"officer_management",
+			"coordinated_maneuvers",
+			"electronic_warfare",
+			"ship_design",
+		],
+	},
+	"illegalCommodities":[
+		"food",
+	],
+	"music":{
+		"theme":"music_tritach_encounter_neutral",
+		"market_neutral":"music_tritach_market_neutral",
+		"market_hostile":"music_tritach_market_hostile",
+		"market_friendly":"music_tritach_market_friendly",
+		"encounter_neutral":"music_tritach_encounter_neutral",
+		"encounter_hostile":"music_tritach_encounter_hostile",
+		"encounter_friendly":"music_tritach_encounter_friendly",
+	},
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/characters/andrada1.png",
+			"graphics/portraits/characters/andrada2.png",
+		],
+		"standard_female":[
+			"graphics/portraits/characters/andrada1.png",
+			"graphics/portraits/characters/andrada2.png",
+			],
+	},
+	"ranks":{
+		"ranks":{
+			"spaceCommander":{"name":"Supreme Overlord"},
+		},
+		"posts":{
+			"patrolCommander":{"name":"Not A Cop"},
+			"fleetCommander":{"name":"Fleet Commander"},
+			"baseCommander":{"name":"Based Commander"},
+			"administrator":{"name":"Slum Lord"},
+			},
+		},
+		
+	"custom":{
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":1,
+		"AICoreRepMult":2,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"caresAboutAtrocities":false,
+		"punitiveExpeditionData":{
+			"vsCompetitors":true,
+			"vsFreePort":false,
+			"canBombard":true,
+			"territorial":true,
+		},
+	},
+	"fleetTypeNames":{
+		"trade":"Meth Dealer",
+		"smallTrader":"Weed Dealer",
+		"tradeLiner":"Coke Dealer",
+		"patrolSmall":"Concerned Citizen",
+		"patrolMedium":"Police",
+		"patrolLarge":"Small Patrol",
+		"inspectionFleet":"AI Core Removalist",
+		"taskForce":"Normal Fleet",
+		"tradeSmuggler":"Just A Trader",
+		"foodReliefFleet":"Burger Run",
+	},
+},
+
