@@ -80,15 +80,15 @@
         }
     ],
     "height": 72,
-    "hullId": "hyperion",
-    "hullName": "Hyperion",
+    "hullId": "touhou_yamaxanadu",
+    "hullName": "Yamaxanadu",
     "hullSize": "FRIGATE",
     "shieldCenter": [
         7,
         1
     ],
     "shieldRadius": 55,
-    "spriteName": "graphics/ships/hyperion_ff.png",
+    "spriteName": "graphics/ships/touhou_yamaxanadu.png",
     "style": "HIGH_TECH",
     "viewOffset": 0,
     "weaponSlots": [

@@ -186,15 +186,15 @@
         }
     ],
     "height": 222,
-    "hullId": "falcon",
-    "hullName": "Falcon",
+    "hullId": "touhou_shameimaru",
+    "hullName": "Shameimaru",
     "hullSize": "CRUISER",
     "shieldCenter": [
         23,
         0
     ],
     "shieldRadius": 155,
-    "spriteName": "graphics/ships/falcon/falcon_base.png",
+    "spriteName": "graphics/ships/touhou_shameimaru.png",
     "style": "MIDLINE",
     "viewOffset": 0,
     "weaponSlots": [

@@ -240,15 +240,15 @@
         }
     ],
     "height": 400,
-    "hullId": "conquest",
-    "hullName": "Conquest",
+    "hullId": "touhou_yagokoro",
+    "hullName": "Yagokoro",
     "hullSize": "CAPITAL_SHIP",
     "shieldCenter": [
         26,
         0
     ],
     "shieldRadius": 250,
-    "spriteName": "graphics/ships/conquest/conquest.png",
+    "spriteName": "graphics/ships/touhou_yagokoro.png",
     "style": "MIDLINE",
     "viewOffset": 0,
     "weaponSlots": [

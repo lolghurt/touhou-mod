@@ -43,15 +43,15 @@
         }
     ],
     "height": 92,
-    "hullId": "tempest",
-    "hullName": "Tempest",
+    "hullId": "touhou_scarlet",
+    "hullName": "Scarlet",
     "hullSize": "FRIGATE",
     "shieldCenter": [
         15,
         0
     ],
     "shieldRadius": 64,
-    "spriteName": "graphics/ships/tempest.png",
+    "spriteName": "graphics/ships/touhou_scarlet.png",
     "style": "HIGH_TECH",
     "viewOffset": 0,
     "weaponSlots": [

@@ -222,15 +222,15 @@
         }
     ],
     "height": 440,
-    "hullId": "astral",
-    "hullName": "Astral",
+    "hullId": "touhou_saigyouji",
+    "hullName": "Saigyouji",
     "hullSize": "CAPITAL_SHIP",
     "shieldCenter": [
         39,
         0
     ],
     "shieldRadius": 250,
-    "spriteName": "graphics/ships/astral/astral.png",
+    "spriteName": "graphics/ships/touhou_saigyouji.png",
     "style": "HIGH_TECH",
     "viewOffset": 150,
     "weaponSlots": [

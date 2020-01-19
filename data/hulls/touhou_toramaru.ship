@@ -117,15 +117,15 @@
         }
     ],
     "height": 224,
-    "hullId": "colossus",
-    "hullName": "Colossus",
+    "hullId": "touhou_toramaru",
+    "hullName": "Toramaru",
     "hullSize": "CRUISER",
     "shieldCenter": [
         -6,
         1
     ],
     "shieldRadius": 170,
-    "spriteName": "graphics/ships/colossus/colossus.png",
+    "spriteName": "graphics/ships/touhou_toramaru.png",
     "style": "LOW_TECH",
     "viewOffset": 0,
     "weaponSlots": [

@@ -163,15 +163,15 @@
         }
     ],
     "height": 324,
-    "hullId": "radiant",
-    "hullName": "Radiant",
+    "hullId": "touhou_yakumo",
+    "hullName": "Yakumo",
     "hullSize": "CAPITAL_SHIP",
     "shieldCenter": [
         35,
         1
     ],
     "shieldRadius": 220,
-    "spriteName": "graphics/ships/remnants/remnant_battleship.png",
+    "spriteName": "graphics/ships/touhou_yakumo.png",
     "style": "HIGH_TECH",
     "viewOffset": 0,
     "weaponSlots": [

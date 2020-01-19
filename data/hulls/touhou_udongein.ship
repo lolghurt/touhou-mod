@@ -183,15 +183,15 @@
         }
     ],
     "height": 280,
-    "hullId": "apogee",
-    "hullName": "Apogee",
+    "hullId": "touhou_udongein",
+    "hullName": "Udongein",
     "hullSize": "CRUISER",
     "shieldCenter": [
         18,
         0
     ],
     "shieldRadius": 200,
-    "spriteName": "graphics/ships/apogee/apogee.png",
+    "spriteName": "graphics/ships/touhou_udongein.png",
     "style": "HIGH_TECH",
     "viewOffset": 0,
     "weaponSlots": [

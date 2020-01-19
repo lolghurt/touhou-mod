@@ -211,15 +211,15 @@
         }
     ],
     "height": 360,
-    "hullId": "prometheus",
-    "hullName": "Prometheus",
+    "hullId": "touhou_whiterock",
+    "hullName": "Whiterock",
     "hullSize": "CAPITAL_SHIP",
     "shieldCenter": [
         26,
         1
     ],
     "shieldRadius": 230,
-    "spriteName": "graphics/ships/tanker_large.png",
+    "spriteName": "graphics/ships/touhou_whiterock.png",
     "style": "LOW_TECH",
     "viewOffset": 0,
     "weaponSlots": [

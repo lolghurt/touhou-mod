@@ -184,15 +184,15 @@
         }
     ],
     "height": 280,
-    "hullId": "aurora",
-    "hullName": "Aurora",
+    "hullId": "touhou_reiuji",
+    "hullName": "Reiuji",
     "hullSize": "CRUISER",
     "shieldCenter": [
         8,
         1
     ],
     "shieldRadius": 190,
-    "spriteName": "graphics/ships/aurora_ca.png",
+    "spriteName": "graphics/ships/touhou_reiuji.png",
     "style": "HIGH_TECH",
     "viewOffset": 0,
     "weaponSlots": [

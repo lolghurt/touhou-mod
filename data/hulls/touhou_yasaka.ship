@@ -184,15 +184,15 @@
         }
     ],
     "height": 308,
-    "hullId": "legion",
-    "hullName": "Legion",
+    "hullId": "touhou_yasaka",
+    "hullName": "Yasaka",
     "hullSize": "CAPITAL_SHIP",
     "shieldCenter": [
         0,
         0
     ],
     "shieldRadius": 190,
-    "spriteName": "graphics/ships/legion/legion.png",
+    "spriteName": "graphics/ships/touhou_yasaka.png",
     "style": "LOW_TECH",
     "viewOffset": 0,
     "weaponSlots": [

@@ -113,15 +113,15 @@
         }
     ],
     "height": 54,
-    "hullId": "brawler",
-    "hullName": "Brawler",
+    "hullId": "touhou_rumia",
+    "hullName": "Rumia",
     "hullSize": "FRIGATE",
     "shieldCenter": [
         0,
         0
     ],
     "shieldRadius": 70,
-    "spriteName": "graphics/ships/brawler.png",
+    "spriteName": "graphics/ships/touhou_rumia.png",
     "style": "MIDLINE",
     "viewOffset": 0,
     "weaponSlots": [

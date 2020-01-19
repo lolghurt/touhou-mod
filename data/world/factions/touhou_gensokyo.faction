@@ -8,9 +8,9 @@
 	"displayNameWithArticle":"Gensokyo",
 	"displayNameLong":"Gensokyo",
 	"displayNameLongWithArticle":"Gensokyo",
-	"logo":"graphics/factions/aBadIdea4_philpocalypse_flag.png",
-	"crest":"graphics/factions/aBadIdea4_philpocalypse_crest.png",
-	"shipNamePrefix":"PHIL",
+	"logo":"graphics/factions/touhou/Touhou_l.png",
+	"crest":"graphics/factions/touhou/Touhou_c.png",
+	"shipNamePrefix":"ZUN",
 	"shipNameSources":{
 		"ALL":1,
 	},
